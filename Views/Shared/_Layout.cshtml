@@ -37,7 +37,35 @@
                                 <i class="bi bi-shield-lock-fill"></i> Privacy
                             </a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Mascotas" asp-action="Create">
+                                <i class="bi bi-plus-circle-fill"></i> Registrar Mascota
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Mascotas" asp-action="Index">
+                                <i class="bi bi-card-list"></i> Lista de Mascotas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Adopciones" asp-action="Assign">
+                                <i class="bi bi-link-45deg"></i> Asignar Adopción
+                            </a>
+                        </li>
+
+                       
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Adoptantes" asp-action="Create">
+                                <i class="bi bi-person-plus"></i> Registrar Adoptante
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Adoptantes" asp-action="Index">
+                                <i class="bi bi-people"></i> Lista de Adoptantes
+                            </a>
+                        </li>
+
                     </ul>
 
                     <!-- Área de login/logout -->
